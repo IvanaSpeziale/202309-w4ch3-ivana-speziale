@@ -1,9 +1,9 @@
 import React from 'react';
 import { List } from './list/list';
-/* import { AnyCharacter } from './card/card'; */
+import { AnyCharacter } from './card/card';
 
 export default function App() {
-  /*     const example: AnyCharacter[] = [
+  const example: AnyCharacter[] = [
     {
       isAlive: true,
       message: 'I hit first and ask later',
@@ -24,11 +24,11 @@ export default function App() {
       skillLevel: 10,
       category: 'fighter',
     },
-  ]; 
- */
+  ];
+
   return (
     <div>
-      <List children={[]}></List>
+      <List children={example}></List>
     </div>
   );
 }
