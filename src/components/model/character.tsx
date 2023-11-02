@@ -1,7 +1,3 @@
-export interface Category {
-  category: 'Fighter' | 'King' | 'Adviser' | 'Squire';
-}
-
 export interface Character {
   isAlive: boolean;
   message: string;
@@ -9,6 +5,12 @@ export interface Character {
   family: string;
   age: number;
   category: Category;
+}
+export enum Category {
+  King = 'king',
+  Fighter = 'fighter',
+  Adviser = 'adviser',
+  Squire = 'squire',
 }
 
 export interface King extends Character {

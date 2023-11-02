@@ -1,6 +1,7 @@
 import React from 'react';
 import { List } from './list/list';
 import { AnyCharacter } from './card/card';
+import { Category } from './model/character';
 
 export default function App() {
   const example: AnyCharacter[] = [
@@ -11,7 +12,7 @@ export default function App() {
       family: 'Baratheon',
       age: 18,
       reignYears: 1,
-      category: 'king',
+      category: Category.King, // Usa la enumeración para el tipo de personaje
     },
     {
       isAlive: true,
@@ -21,7 +22,7 @@ export default function App() {
       age: 33,
       weapon: 'sword',
       skillLevel: 10,
-      category: 'fighter',
+      category: Category.Fighter, // Usa la enumeración para el tipo de personaje
     },
     {
       isAlive: true,
@@ -31,7 +32,7 @@ export default function App() {
       age: 18,
       weapon: 'dragons',
       skillLevel: 8,
-      category: 'fighter',
+      category: Category.Fighter, // Usa la enumeración para el tipo de personaje
     },
     {
       isAlive: true,
@@ -47,8 +48,9 @@ export default function App() {
         age: 18,
         weapon: 'dragons',
         skillLevel: 8,
+        category: Category.Fighter, // Usa la enumeración para el tipo de personaje
       },
-      category: 'adviser',
+      category: Category.Adviser, // Usa la enumeración para el tipo de personaje
     },
     {
       isAlive: true,
@@ -65,8 +67,9 @@ export default function App() {
         age: 33,
         weapon: 'sword',
         skillLevel: 10,
+        category: Category.Fighter, // Usa la enumeración para el tipo de personaje
       },
-      category: 'squire',
+      category: Category.Squire, // Usa la enumeración para el tipo de personaje
     },
   ];
 
