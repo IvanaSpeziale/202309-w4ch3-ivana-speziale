@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react';
+/* import { useCallback, useMemo, useState } from 'react';
 import { ApiRepo } from '../components/services/apiRepo';
 import { Fighter, King, Squire, Advisor } from '../components/model/character';
 
@@ -19,4 +19,4 @@ export function useCharacters() {
     characters,
     loadCharacters,
   };
-}
+} */
