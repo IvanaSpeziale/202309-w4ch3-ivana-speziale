@@ -2,7 +2,7 @@ import { /* Category, */ Fighter } from '../model/character';
 import { King } from '../model/character';
 import { Squire } from '../model/character';
 import { Advisor } from '../model/character';
-import '../../card.css';
+import '../../card.scss';
 import React from 'react';
 
 export type AnyCharacter = King | Fighter | Advisor | Squire;

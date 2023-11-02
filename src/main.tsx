@@ -1,4 +1,4 @@
-import {} from './card.css';
+import {} from './card.scss';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from '../src/components/App';
