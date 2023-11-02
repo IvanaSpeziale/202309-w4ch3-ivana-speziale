@@ -12,7 +12,7 @@ export default function App() {
       family: 'Baratheon',
       age: 18,
       reignYears: 1,
-      category: Category.King, // Usa la enumeración para el tipo de personaje
+      category: Category.King,
     },
     {
       isAlive: true,
@@ -22,7 +22,7 @@ export default function App() {
       age: 33,
       weapon: 'sword',
       skillLevel: 10,
-      category: Category.Fighter, // Usa la enumeración para el tipo de personaje
+      category: Category.Fighter,
     },
     {
       isAlive: true,
@@ -32,7 +32,7 @@ export default function App() {
       age: 18,
       weapon: 'dragons',
       skillLevel: 8,
-      category: Category.Fighter, // Usa la enumeración para el tipo de personaje
+      category: Category.Fighter,
     },
     {
       isAlive: true,
@@ -48,9 +48,9 @@ export default function App() {
         age: 18,
         weapon: 'dragons',
         skillLevel: 8,
-        category: Category.Fighter, // Usa la enumeración para el tipo de personaje
+        category: Category.Fighter,
       },
-      category: Category.Adviser, // Usa la enumeración para el tipo de personaje
+      category: Category.Adviser,
     },
     {
       isAlive: true,
@@ -67,9 +67,9 @@ export default function App() {
         age: 33,
         weapon: 'sword',
         skillLevel: 10,
-        category: Category.Fighter, // Usa la enumeración para el tipo de personaje
+        category: Category.Fighter,
       },
-      category: Category.Squire, // Usa la enumeración para el tipo de personaje
+      category: Category.Squire,
     },
   ];
 
